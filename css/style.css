@@ -1,29 +1,34 @@
+body {
+    background-color: bisque;
+}
+
 .container {
     width: 1148px;
     margin: 0 auto;
     overflow: hidden;
+    margin-top: 30px
 }
 
-.brand{
+.brand {
     float: left;
 }
 
-.menu{
+.menu {
     float: right;
     list-style-type: none;
 }
 
-.container img{
+.container img {
     display: block;
     margin: 0 auto;
 }
 
-.menu li{
+.menu li {
     float: left;
     margin-left: 20px;
 }
 
-.menu li a{
+.menu li a {
     text-decoration: none;
 }
 
@@ -32,13 +37,13 @@
         width: 98%;
         overflow: hidden;
     }
-    
-    .brand{
+
+    .brand {
         float: none;
         text-align: center;
     }
-    
-    .menu{
+
+    .menu {
         float: none;
         margin: 0 auto;
         overflow: hidden;
